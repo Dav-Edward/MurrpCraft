@@ -14,14 +14,17 @@ IF NOT EXIST "..\svn\svn.exe" goto :error_svn_missing
 IF %ERRORLEVEL% NEQ 0 goto :error_svn
 echo.
 echo Modpack updates should be complete. Resuming game start...
+timeout 2
 EXIT
 
 :error_svn_missing
 echo.
 echo ERROR: SVN is missing. Did you forget to unzip the modpack to it's own folder and put the whole folder into the Instances folder, or deleted the SVN folder?
-EXIT /B 1
+pause
+exit
 
 :error_svn
 echo.
 echo ERROR: Something went wront with the SVN updater tool.
-EXIT /B 1
+pause
+exit
