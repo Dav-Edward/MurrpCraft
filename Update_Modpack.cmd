@@ -1,4 +1,4 @@
-@echo off
+@echo on
 echo Updating to newest version of mod pack....
 echo.
 echo Any items listed below have been changed since your last update
