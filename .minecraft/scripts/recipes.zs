@@ -1,6 +1,7 @@
 //This file was created via CT-GUI! Editing it is not advised!
 //Don't touch me!
 //#Remove
+recipes.remove(<dimdoors:oak_dimensional_door>);
 recipes.remove(<extrautils2:crafter>);
 recipes.remove(<extrautils2:bagofholding>);
 recipes.remove(<tconstruct:piggybackpack>);
@@ -23,6 +24,7 @@ recipes.remove(<dimdoors:rift_configuration_tool>);
 recipes.remove(<dimdoors:gold_dimensional_door>);
 //Don't touch me!
 //#Add
+recipes.addShaped(<dimdoors:oak_dimensional_door>, [[null, null, null],[<ore:doorWood>, <minecraft:ender_pearl>, <ore:doorWood>], [null, null, null]]);
 recipes.addShapeless(<extrautils2:crafter>, [<minecraft:crafting_table>,<minecraft:dropper>]);
 recipes.addShapeless(<thermalfoundation:material:103> * 4, [<ore:dustLead>,<ore:dustLead>,<ore:dustLead>,<ore:dustSilver>,<forge:bucketfilled>.withTag({FluidName: "ender", Amount: 1000}).onlyWithTag({FluidName: "ender", Amount: 1000})]);
 recipes.addShapeless(<enderio:item_material:28> * 9, [<ore:enderpearl>,<extrautils2:glasscutter:*>]);
