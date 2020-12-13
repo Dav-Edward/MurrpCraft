@@ -2,6 +2,7 @@
 mods.tconstruct.Melting.addRecipe(<liquid:coal> * 200,<minecraft:coal>);
 mods.tconstruct.Melting.addRecipe(<liquid:coal> * 1800,<minecraft:coal_block>);
 mods.tconstruct.Melting.addRecipe(<liquid:coal> * 600,<ore:coal>);
+mods.tconstruct.Melting.addRecipe(<liquid:coal> * 100,<ore:dustcoal>);
 
 
 mods.tconstruct.Alloy.removeRecipe(<liquid:lumium>);
