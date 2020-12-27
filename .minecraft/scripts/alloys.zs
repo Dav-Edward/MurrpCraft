@@ -1,3 +1,9 @@
+//Fuels
+
+//mods.tconstruct.Fuel.registerFuel(ILiquidStack fuel, int duration);
+
+mods.tconstruct.Fuel.registerFuel(<liquid:pyrotheum> * 2, 192);
+
 //Melting Recipies  OutputFluid * AmountOfLiquid, ArrayOfInputSolids
 mods.tconstruct.Melting.addRecipe(<liquid:coal> * 200,<minecraft:coal>);
 mods.tconstruct.Melting.addRecipe(<liquid:coal> * 1800,<minecraft:coal_block>);
