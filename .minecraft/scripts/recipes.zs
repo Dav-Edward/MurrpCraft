@@ -24,6 +24,7 @@ recipes.remove(<dimdoors:rift_configuration_tool>);
 recipes.remove(<dimdoors:gold_dimensional_door>);
 //Don't touch me!
 //#Add
+recipes.addShapeless(<tconstruct:arrow_shaft>.withTag({Material: "ice"}), [<tconstruct:arrow_shaft>.withTag({Material: "wood"}),<minecraft:ice>,<minecraft:ice>]);
 recipes.addShaped(<dimdoors:oak_dimensional_door>, [[null, null, null],[<ore:doorWood>, <minecraft:ender_pearl>, <ore:doorWood>], [null, null, null]]);
 recipes.addShapeless(<extrautils2:crafter>, [<minecraft:crafting_table>,<minecraft:dropper>]);
 recipes.addShapeless(<thermalfoundation:material:103> * 4, [<ore:dustLead>,<ore:dustLead>,<ore:dustLead>,<ore:dustSilver>,<forge:bucketfilled>.withTag({FluidName: "ender", Amount: 1000}).onlyWithTag({FluidName: "ender", Amount: 1000})]);
