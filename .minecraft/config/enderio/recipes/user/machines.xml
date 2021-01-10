@@ -45,7 +45,7 @@
     </crafting>
   </recipe>
 
-<!--   <recipe name="Enhanced Combustion Generator" required="true">
+  <recipe name="Enhanced Combustion Generator" required="true">
     <crafting>
       <grid size="3x3">
         <item name="ingotEndSteel" /><item name="ELECTRICAL_STEEL" /><item name="ingotEndSteel" />
@@ -54,9 +54,9 @@
       </grid>
       <output name="enderio:block_enhanced_combustion_generator" />
     </crafting>
-  </recipe> -->
+  </recipe>
 
-<!--   <recipe name="Enhanced Combustion Generator, Upgrade" required="true">
+  <recipe name="Enhanced Combustion Generator, Upgrade" required="true">
     <crafting upgrade="true">
       <grid size="3x3">
         <item name="ingotEndSteel" /><item name="enderio:block_combustion_generator" /><item name="ingotEndSteel" />
@@ -65,7 +65,7 @@
       </grid>
       <output name="enderio:block_enhanced_combustion_generator" />
     </crafting>
-  </recipe> -->
+  </recipe>
 
   <recipe name="Zombie Generator" required="true">
     <crafting>
@@ -298,7 +298,7 @@
     </crafting>
   </recipe>
 
-<!--   <recipe name="Enhanced Alloy Smelter" required="true">
+  <recipe name="Enhanced Alloy Smelter" required="true">
     <crafting>
       <grid size="3x3">
         <item name="ingotEndSteel" /><item name="minecraft:furnace" /><item name="ingotEndSteel" />
@@ -308,8 +308,8 @@
       <output name="enderio:block_enhanced_alloy_smelter" />
     </crafting>
   </recipe>
- -->
-<!--   <recipe name="Enhanced Alloy Smelter, Upgrade" required="true">
+
+  <recipe name="Enhanced Alloy Smelter, Upgrade" required="true">
     <crafting upgrade="true">
       <grid size="3x2">
         <item name="ingotEndSteel" /><item name="enderio:block_alloy_smelter" /><item name="ingotEndSteel" />
@@ -317,7 +317,7 @@
       </grid>
       <output name="enderio:block_enhanced_alloy_smelter" />
     </crafting>
-  </recipe> -->
+  </recipe>
 
   <recipe name="The Vat" required="true">
     <crafting>
@@ -330,7 +330,7 @@
     </crafting>
   </recipe>
 
-<!--   <recipe name="The Enhanced Vat" required="true">
+  <recipe name="The Enhanced Vat" required="true">
     <crafting>
       <grid size="3x3">
         <item name="ELECTRICAL_STEEL" /><item name="item:minecraft:cauldron" /><item name="ELECTRICAL_STEEL" />
@@ -339,9 +339,9 @@
       </grid>
       <output name="enderio:block_enhanced_vat" />
     </crafting>
-  </recipe> -->
+  </recipe>
 
-<!--   <recipe name="The Enhanced Vat, Upgrade" required="true">
+  <recipe name="The Enhanced Vat, Upgrade" required="true">
     <crafting upgrade="true">
       <grid size="3x2">
         <item name="ingotEndSteel" /><item name="enderio:block_vat" /><item name="ingotEndSteel" />
@@ -349,7 +349,7 @@
       </grid>
       <output name="enderio:block_enhanced_vat" />
     </crafting>
-  </recipe> -->
+  </recipe>
 
   <recipe name="Farming Station" required="true">
     <crafting>

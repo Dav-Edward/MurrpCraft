@@ -36,7 +36,7 @@
     </crafting>
   </recipe>
 
-<!--   <recipe name="Enhanced SAG Mill" required="true">
+  <recipe name="Enhanced SAG Mill" required="true">
     <crafting>
       <grid size="3x3">
         <item name="itemFlint" /><item name="itemFlint" /><item name="itemFlint" />
@@ -45,9 +45,9 @@
       </grid>
       <output name="enderio:block_enhanced_sag_mill" />
     </crafting>
-  </recipe> -->
+  </recipe>
 
-<!--   <recipe name="Enhanced SAG Mill, Upgrade" required="true">
+  <recipe name="Enhanced SAG Mill, Upgrade" required="true">
     <crafting upgrade="true">
       <grid size="3x2">
         <item name="ingotEndSteel"/><item name="enderio:block_sag_mill" /><item name="ingotEndSteel" />
@@ -55,7 +55,7 @@
       </grid>
       <output name="enderio:block_enhanced_sag_mill" />
     </crafting>
-  </recipe> -->
+  </recipe>
 
   <recipe name="Sagmill: Silicon" required="true">
     <sagmilling energy="720">
