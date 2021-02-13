@@ -1,6 +1,7 @@
 //This file was created via CT-GUI! Editing it is not advised!
 //Don't touch me!
 //#Remove
+recipes.remove(<extrautils2:ingredients>);
 recipes.remove(<dimdoors:oak_dimensional_door>);
 recipes.remove(<extrautils2:crafter>);
 recipes.remove(<extrautils2:bagofholding>);
@@ -24,6 +25,8 @@ recipes.remove(<dimdoors:rift_configuration_tool>);
 recipes.remove(<dimdoors:gold_dimensional_door>);
 //Don't touch me!
 //#Add
+recipes.addShaped(<enderio:item_material:16>, [[<ore:ingotSoularium>, <ore:ingotSoularium>, <ore:ingotSoularium>],[<ore:ingotSoularium>, <ore:ingotEnderium>, <ore:ingotSoularium>], [<ore:ingotSoularium>, <ore:ingotSoularium>, <ore:ingotSoularium>]]);
+recipes.addShaped(<extrautils2:ingredients>, [[null, <ore:dustRedstone>, null],[<ore:dustRedstone>, <ore:blockGlassColorless>, <ore:dustRedstone>], [null, <ore:dustRedstone>, null]]);
 recipes.addShapeless(<tconstruct:arrow_shaft>.withTag({Material: "ice"}), [<tconstruct:arrow_shaft>.withTag({Material: "wood"}),<minecraft:ice>,<minecraft:ice>]);
 recipes.addShaped(<dimdoors:oak_dimensional_door>, [[null, null, null],[<ore:doorWood>, <minecraft:ender_pearl>, <ore:doorWood>], [null, null, null]]);
 recipes.addShapeless(<extrautils2:crafter>, [<minecraft:crafting_table>,<minecraft:dropper>]);
