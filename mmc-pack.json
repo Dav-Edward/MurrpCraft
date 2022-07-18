@@ -21,18 +21,6 @@
             "important": true,
             "uid": "net.minecraft",
             "version": "1.16.5"
-        },
-        {
-            "cachedName": "Forge",
-            "cachedRequires": [
-                {
-                    "equals": "1.16.5",
-                    "uid": "net.minecraft"
-                }
-            ],
-            "cachedVersion": "36.2.20",
-            "uid": "net.minecraftforge",
-            "version": "36.2.20"
         }
     ],
     "formatVersion": 1
